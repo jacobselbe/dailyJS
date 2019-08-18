@@ -24,6 +24,7 @@ function App(props) {
             return str;
           )
         </code>
+        {spinWords("Hey fellow warriors")}
       </main>
     </div>
   );
