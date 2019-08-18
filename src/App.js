@@ -7,7 +7,7 @@ function App(props) {
   //create components for challenges and JS answers
 
   function spinWords(str) {
-    //code this
+    return str;
   }
 
   return (
