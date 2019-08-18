@@ -19,11 +19,11 @@ function App(props) {
         <p>
           Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
         </p>
-        <code>
+        <script type="text/javascript">
           spinWords(str) => ({
             spinWords('Hey fellow warriors')
           })
-        </code>
+        </script>
       </main>
     </div>
   );
