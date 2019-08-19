@@ -1,31 +1,15 @@
 import React from 'react';
+import Challenge from './Challenge';
+import Container from '@material-ui/core/Container';
 
-function App(props) {
 
-  //create components for challenges and JS answers
-
-  function spinWords(str) {
-    return str;
-  }
-
+export default function App(props) {
   return (
-    <div>
-      <main role="main" className="App">
-        <p>
-          Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
-        </p>
-        <p>
-          Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=> returns "This is rehtona test"
-        </p>
-        <code>
-          function spinWords(str) => (
-            return str;
-          )
-        </code>
-        {spinWords("Hey fellow warriors")}
+    <Container>
+      <header>dailyJS</header>
+      <main role="main">
+        <Challenge />
       </main>
-    </div>
+    </Container>
   );
 }
-
-export default App;

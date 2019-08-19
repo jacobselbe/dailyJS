@@ -33,11 +33,6 @@ a:hover {
   text-decoration-skip: ink;
 }
 
-.App {
-  text-align: center;
-  padding: 2%;
-}
-
 @media screen and (min-width: 40rem) {
   html {
     font-size: 120%;
