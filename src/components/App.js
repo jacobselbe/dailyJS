@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import { createMuiTheme, makeStyles } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/styles';
+// import { ThemeProvider } from '@material-ui/styles';
 
 import CssBaseline from '@material-ui/core/CssBaseline';
 import NavBar from './NavBar';
